@@ -1,0 +1,381 @@
+/*
+ * Globals
+ */
+
+
+
+/*
+ * Base structure
+ */
+
+/* body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+} */
+/* 
+p, h3{
+} */
+
+#persons{
+  color: #2471A3;
+  font-family: 'Hind Siliguri', sans-serif;
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.confirm{
+  color: #2471A3;
+}
+/* #bodyBackGround{
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+/* .cover-container {
+  max-width: 42em;
+} */
+
+.color-textGrey{
+  color: #4A4A4A;
+}
+
+.ml3 {
+  font-weight: 900;
+  font-size: 1.7em;
+  font-family: 'Roboto', sans-serif;
+  color: #2471A3;
+}
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 2em;
+  color: #2471A3;
+}
+
+.ml5 .text-wrapper {
+  font-family: 'Hind Siliguri', sans-serif;
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+/* .ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+} */
+
+.ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
+
+.ml6 {
+  position: relative;
+  font-weight: 300;
+  /* font-size: 2em;  */
+  color: #2471A3;
+}
+
+.ml6 .text-wrapper {
+  font-family: Baskerville, serif;
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+/* .ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+} */
+
+.ml6 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml6 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
+
+/* .circle-icon {
+  background: #ffc0c0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 30px;
+} */
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.cont .hexagon {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  /* margin: 50px 20px 70px; */
+}
+
+.cont .hexagon::before {
+  content: '';
+  position: absolute;
+  bottom: -70px;
+  width: 100%;
+  height: 60px;
+  left: -7px;
+  background: radial-gradient(rgba(0,0,0,0.15),transparent,transparent);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.cont .hexagon .shape{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+   clip-path: polygon(0 27%, 51% 0, 100% 26%, 100% 74%, 51% 100%, 0 74%);
+   transition: 0.5s;
+
+}
+
+.cont .hexagon .shape img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pictures{
+  /* display: block; */
+  margin: 0 auto;
+}
+
+.pictures-section img{
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  height: 300px;
+  object-fit: cover;
+  -webkit-box-shadow: -1px -1px 5px 1px rgba(0,0,0,0.74);
+  -moz-box-shadow: -1px -1px 5px 1px rgba(0,0,0,0.74);
+  box-shadow: -1px -1px 5px 1px rgba(0,0,0,0.74);
+  border-radius: 5px;
+} 
+
+.cont .hexagon .shape .cont-text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  background: hsla(204, 53%, 82%, 1);
+
+  background: linear-gradient(90deg, hsla(204, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 0.2) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(204, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 0.2) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(204, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 0.2) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E9B7CE", endColorstr="#D3F3F1", GradientType=1 );
+  color: #fff;
+  opacity: 0;
+  transition: 0.5;
+}
+
+.btn{
+  background-color: #2471A3;
+  color: #fff;
+}
+
+
+/* ? ----- Contador ----- */
+.portada {
+	width: 100%;
+	/* background: #FA8072; */
+
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+	right: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: .5s ease-out all;
+}
+
+.portada.oculta {
+	transform: translateY(100%);
+}
+
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+	/* margin-bottom: 100px; */
+}
+
+.simply-section {
+  background-color: #2471A3;
+	/* width: 180px;
+  height: 180px;*/
+  padding: 10px;
+	margin: 5px 5px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+
+
+#imagePrincipal img{
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #2471A3;
+}
+
+
+@media (min-width: 791px){
+
+
+  .cont .hexagon:hover::before {
+    opacity: 0.8;
+    transform: scale(0.8);
+  }
+
+  .cont .hexagon:hover .shape{
+    transform: translateY(-30px);
+  }
+
+  .cont .hexagon:hover .shape .cont-text{
+    opacity: 1;
+  }
+
+  #imgFirst{
+    max-height: 700px;
+  }
+
+}
+
+@media (max-width: 790px){
+
+  .cont  .hexagon{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .cont .hexagon .shape .cont-text{
+    opacity: 1;
+  }
+
+  /* #imagePrincipal img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  } */
+}
+
